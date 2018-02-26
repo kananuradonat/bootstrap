@@ -1,0 +1,174 @@
+/* line 7, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+html {
+  font-size: 62.5%;
+}
+
+/* line 11, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+body {
+  width: 980px;
+  margin: 0 auto;
+}
+
+/* line 15, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.top_menu li.select {
+  color: white;
+  background-color: black;
+  /*padding: 10px;*/
+  margin-top: 0;
+}
+
+/* line 21, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.header {
+  padding: 10px;
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+}
+
+/* line 28, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.container {
+  width: 100%;
+  height: 2400px;
+  background-color: LightBlue;
+  position: relative;
+  font-size: small;
+}
+
+/* line 36, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+nav {
+  float: left;
+  width: 100%;
+  /*height:auto;*/
+  /*margin-top:3px;*/
+  /*padding: 1em;*/
+  display: inline;
+  background-color: Teal;
+  color: black;
+  /*height:20px;*/
+  /*padding: 35px;*/
+  border-radius: 20px;
+}
+
+/* line 50, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+nav ul {
+  list-style-type: none;
+  /*padding-bottom:0;*/
+  color: black;
+}
+
+/* line 57, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+nav ul a li {
+  text-decoration: none;
+  float: left;
+  padding: 15px;
+  color: black;
+  font-size: large;
+  text-align: left;
+}
+
+/* line 65, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.maincontent {
+  margin: 0px;
+  width: 98%;
+  height: 3000px;
+  padding-bottom: 15px;
+}
+
+/* line 73, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.content {
+  padding: 15px;
+  float: left;
+  width: 58%;
+  height: 1463px;
+  border-radius: 20px 20px 10px 10px;
+  margin-top: 7px;
+}
+
+/* line 85, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.sect1 {
+  float: left;
+  text-align: center;
+}
+
+/* line 90, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.sect2 {
+  float: left;
+  text-align: center;
+}
+
+/* line 94, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.side_menu {
+  float: right;
+  width: 30%;
+  height: 350px;
+  background-color: rgba(230, 237, 240, 0.23);
+  border-radius: 20px 20px 10px 10px;
+  margin-top: 130px;
+}
+
+/* line 106, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.pic {
+  float: right;
+}
+
+/* line 112, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.footer {
+  clear: both;
+  color: white;
+  background-color: black;
+  width: 102%;
+  height: auto;
+  text-align: center;
+  float: center;
+  margin-top: 3px;
+  position: relative;
+  margin-top: 5px;
+  bottom: 0;
+}
+
+/* line 126, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.words {
+  font-size: x-large;
+}
+
+/* line 130, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+.hide {
+  display: none;
+}
+
+/* line 133, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+#accordion {
+  width: 100%;
+}
+
+/* line 137, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+#accordion dt {
+  border-bottom: solid 1px white;
+  background-color: #008080;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* line 145, /home/ubuntu/workspace/sample/app/assets/stylesheets/blogs.scss */
+#accordion dd {
+  border: solid 1px #ccc;
+  margin: 0px;
+  padding: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
