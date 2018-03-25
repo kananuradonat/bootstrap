@@ -1,4 +1,78 @@
-<h1>Tweet Detail Screen </h1>
+
+<div class="container">
+    <header class="header">
+   TWEETS AND FIND ALL YOUR TWEETS
+    
+    </header>
+    
+    <style>
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+  </style> 
+
+<!--
+
+<span class="label label-info">Info</span>
+<span class="label label-warning">Warning</span>
+<span class="label label-danger">Danger</span>-->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#gnavi">
+        <span class="sr-only">Bootstrap</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        
+      </button>
+      <a class="navbar-brand" href="#">Tweet Here</a>
+    </div>
+     <div id="gnavi" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li class=""><a href="#">Home</a></li>
+      <li><a href="#">Tweets</a></li>
+      <li><a href="#">About us </a></li>
+      <li><a href="#">Service</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!--
+<h1>Blog Detail Screen </h1>
 <p>Name: <%= @blog.name %></p>
-<p>Subject: <%= @blog.email %></p>
-<p>Tweets: <%= @blog.content %></p>
+<p>email: <%= @blog.email %></p>
+<p>Contents: <%= @blog.content %></p>
+-->
+
+ <div class="col-md-12">
+ 	<div class="row">
+<p><%= notice %></p>
+
+<table cellpadding="20">
+  <tr>
+  	
+   <u> <th>Names</th></u>
+   
+   <u> <th>Email</th></th></u>
+   <u> <th>Tweet</th></th></u>
+   
+  </tr>
+
+
+  <tr>
+ <td><%= @blog.name %>&emsp;</td>
+<td><%= @blog.email %>&emsp;</td>
+    
+  <td><%= @blog.content %></td>
+
+</tr>
+
+</table>
+</div>
+</div>

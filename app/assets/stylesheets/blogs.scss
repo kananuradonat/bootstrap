@@ -1,153 +1,105 @@
+
+
+
 // Place all the styles related to the blogs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-
-
-html {
-  font-size: 62.5%;
+li{
+    list-style:none;
+}
+ul{
+    padding:0;
 }
 
-body{
-  width: 980px;
-  margin: 0 auto;
-}
-.top_menu li.select{
-  color: white;
-  background-color: black;
-  /*padding: 10px;*/
-  margin-top: 0;
-}
-  .header{
-    padding:10px;
-    background-color: #F5B4B3;
-  height: 50px;
-  font-size: 1.5rem;
-  
-}
-  .container{
-   width:100%;
-    height:2400px;
-    background-color: LightBlue;
-    position: relative;
-    font-size: small;
-  }
-  
-  nav {
-    float:left;
-    width:100%;
-    /*height:auto;*/
-    /*margin-top:3px;*/
-    /*padding: 1em;*/
-    display :inline;
-    background-color:Teal;
-    color: black;
-    /*height:20px;*/
-    /*padding: 35px;*/
-     border-radius:20px;
+.header{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    padding:40px;
+    margin-right:20px;
 }
 
-nav ul {
-    list-style-type: none;
-    /*padding-bottom:0;*/
-    color: black;
-  
+.menu{
+    background-color:#012F4B;
+    color:#fff;
 }
-   
-nav ul a li{
-    text-decoration: none;
-    float:left;
+.menu li {
+    padding:5% 10%;
+    text-align:center;
+}
+.contents li{
+    background-color:#666666;
+    color:#fff;
+    padding:10% 10%;
+    box-sizing: border-box;
+    border: solid 1px #fff;
+}
+.topic li{
+    margin:1%;
+    border-bottom: dotted 1px #333333;
+}
+.container{
+    margin-top:20px;
+    background-color:rgb(204, 204, 204);
+}
+.alert {
     padding: 15px;
-    color: black;
-    font-size: large;
-    text-align: left;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
-.maincontent{
- 
-  margin:0px;
-  width: 98%;
-  height:3000px;
-  padding-bottom: 15px;
-  }
-  
-  .content{
-    padding:15px;
-    
-    float: left;
-    width:58%;
-    height:1463px;
-   
-    border-radius:20px 20px 10px 10px;
-   
-    margin-top: 7px;
-    
-    }
-  .sect1{
-    float: left;
-    text-align: center;
-  }
-  
-  .sect2{
-    float: left;
-    text-align: center;
-  }
-  .side_menu{
-    float: right;
-    width:30%;
-     height:350px;
 
-background-color: rgba(230, 237, 240, 0.23);
-border-radius:20px 20px 10px 10px;
-margin-top: 130px;
-
-    
-  }
-  
-  .pic{
-   float: right 
-   
-    
-  }
-  
-  .footer{
-    clear: both;
-     color: white;
-    background-color: black;
-    width: 102%;
-    height:auto;
-    text-align: center;
-    float:center;
-    margin-top: 3px;
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+.navbar {
     position: relative;
-    margin-top:5px;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    padding:30px;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.navbar-brand {
+    float: right;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
     
-  bottom: 0;
-  }
-  .words{
-    font-size: x-large;
     
-  }
- .hide {
-    display:none;
-}
-  #accordion {
-  width: 100%;
 }
 
-#accordion dt {
-  border-bottom: solid 1px white;
-  background-color: #008080;
-  cursor: pointer;
-  padding: 10px;
-  font-weight: bold;
+.navbar-toggle {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+     
+   
+}
+h1, h2, h3, h4, h5 {
+  border-style: dotted;
+  border-width: 1px;
+}
+.navbar-toggle.nav{
+    
+    margin-top:20px;
 }
 
-#accordion dd {
-  border: solid 1px #ccc;
-  margin: 0px;
-  padding: 10px;
+.hr{
+  size:15px;
+  color:blue;
+  
 }
-
-.delete{
-  display:inline;
+.topic{
+    
+   background-color:#0a0f0f;
+   
 }

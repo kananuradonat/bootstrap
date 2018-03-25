@@ -38,12 +38,12 @@ class BlogsController < ApplicationController
     end
   end
   
-  private
+ 
   
  def destroy
-  @blog.destroy
-  redirect_to blogs_path, notice: "You have deleted the blog!"
-end
+    @blog.destroy
+     redirect_to blogs_path, notice: "You have deleted the blog!"
+  end
 
 
 
@@ -54,7 +54,7 @@ end
  
 
  
- def set_blog
+def set_blog
   @blog = Blog.find(params[:id])
 end
 
